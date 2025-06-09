@@ -1,5 +1,5 @@
 #!/bin/bash
 # Reimbursement calculator wrapper script
-# Calls our Python implementation with the provided arguments
+# V2: Based on systematic exploration and decision tree analysis
 
-python3 reimbursement_calculator.py "$1" "$2" "$3"
+python3 reimbursement_v2.py "$1" "$2" "$3"
